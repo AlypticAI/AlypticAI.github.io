@@ -10652,7 +10652,7 @@ fieldset:disabled .btn {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #e91e63 !important;
+  color: #231880 !important;
 }
 
 .text-secondary {
@@ -10949,7 +10949,7 @@ fieldset:disabled .btn {
 }
 
 .shadow-primary {
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(35, 38, 147, 0.4) !important;
 }
 
 .shadow-secondary {
@@ -20761,7 +20761,7 @@ fieldset:disabled .btn {
 
 .btn-info,
 .btn.bg-gradient-info {
-  box-shadow: 0 3px 3px 0 rgba(26, 115, 232, 0.15), 0 3px 1px -2px rgba(26, 115, 232, 0.2), 0 1px 5px 0 rgba(26, 115, 232, 0.15);
+  box-shadow: 0 3px 3px 0 rgba(49, 41, 117, 0.15), 0 3px 1px -2px rgba(49, 41, 117, 0.2), 0 1px 5px 0 rgba(49, 41, 117, 0.15);
 }
 
 .btn-info:hover,
@@ -22741,7 +22741,7 @@ label,
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-image: linear-gradient(195deg, #312975 0%, #231880 100%);
 }
 
 .bg-gradient-secondary {
@@ -22753,7 +22753,7 @@ label,
 }
 
 .bg-gradient-info {
-  background-image: linear-gradient(195deg, #49a3f1 0%, #1A73E8 100%);
+  background-image: linear-gradient(195deg, #2d26b1 0%, #3027ab 100%);
 }
 
 .bg-gradient-warning {
@@ -22769,7 +22769,7 @@ label,
 }
 
 .bg-gradient-dark {
-  background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+  background-image: linear-gradient(195deg, #0F0D35  0%, #171350  100%);
 }
 
 .bg-gradient-faded-primary {
@@ -26230,11 +26230,11 @@ p {
 }
 
 .text-gradient.text-primary {
-  background-image: linear-gradient(195deg, #EC407A, #D81B60);
+  background-image: linear-gradient(195deg, #D81B60, #D81B60);
 }
 
 .text-gradient.text-info {
-  background-image: linear-gradient(195deg, #49a3f1, #1A73E8);
+  background-image: linear-gradient(195deg, #312975, #231880);
 }
 
 .text-gradient.text-success {
