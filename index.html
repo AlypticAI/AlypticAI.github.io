@@ -61,100 +61,145 @@
   </head>
 
   <!-- -------- START HEADER 1 w/ text and image on right ------- -->
-  <header>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark navbar-absolute bg-transparent shadow-none"
-    >
-      <div class="container">
-        <a class="navbar-brand text-white" href="javascript:;"
-          >Iniciar sesion</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar-header-2"
-          aria-controls="navbar-header-2"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-header-2">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="javascript:;"> Inicio </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="aboutUs.html"> Sobre Nosotros </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contact.html"> Contactanos </a>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link text-white"
-                href="https://twitter.com/CreativeTim"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white mx-2"
-                href="https://www.facebook.com/CreativeTim"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white"
-                href="https://www.instagram.com/CreativeTimOfficial"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlypticAI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+      /* Estilos personalizados */
+      .mask {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-absolute bg-transparent shadow-none">
+        <div class="container">
+          <a class="navbar-brand text-white" href="javascript:;" onclick="mostrarFormulario()">Iniciar sesión</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header-2" aria-controls="navbar-header-2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-header-2">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="javascript:;">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="aboutUs.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contactanos</a>
+              </li>
+            </ul>
+    
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="https://twitter.com/CreativeTim">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="https://www.facebook.com/CreativeTim">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="https://www.instagram.com/CreativeTimOfficial">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div
-      class="page-header min-vh-100"
-      style="
-        background-image: url(&#39;https://images.unsplash.com/photo-1520769945061-0a448c463865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80&#39;);
-      "
-      loading="lazy"
-    >
-      <span class="mask bg-gradient-dark opacity-5"></span>
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-6 col-md-7 d-flex justify-content-center flex-column"
-          >
-            <h1 class="text-white mb-4">AlypticAI</h1>
-            <p class="text-white opacity-8 lead pe-5 me-5">
-              "Descubre cómo en [Nombre de tu empresa] fusionamos creatividad y
-              tecnología con soluciones de inteligencia artificial generativa.
-              Transformamos ideas en resultados tangibles. ¡Explora más!"
-            </p>
-            <div class="buttons">
-              <button type="button" class="btn btn-white mt-4">Precios</button>
-              <button type="button" class="btn text-white shadow-none mt-4">
-                Mas informacion
-              </button>
+      </nav>
+      <div class="page-header min-vh-100" style="background-image: url('https://images.unsplash.com/photo-1520769945061-0a448c463865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+        <span class="mask bg-gradient-dark opacity-5"></span>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
+              <h1 class="text-white mb-4">AlypticAI</h1>
+              <p class="text-white opacity-8 lead pe-5 me-5">
+                "Descubre cómo en [Nombre de tu empresa] fusionamos creatividad y
+                tecnología con soluciones de inteligencia artificial generativa.
+                Transformamos ideas en resultados tangibles. ¡Explora más!"
+              </p>
+              <div class="buttons">
+                <button type="button" class="btn btn-white mt-4">Precios</button>
+                <button type="button" class="btn text-white shadow-none mt-4">Mas informacion</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
   <!-- -------- END HEADER 1 w/ text and image on right ------- -->
     <br><br><br><br>
+     <!-- Modal de inicio de sesión -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Usuario</label>
+              <input type="text" class="form-control" id="username" placeholder="Ingrese su usuario">
+            </div>
+            <div class="form-group">
+              <label for="password">Contraseña</label>
+              <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" onclick="iniciarSesion()">Iniciar sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Font Awesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+  <script>
+    function mostrarFormulario() {
+      $('#loginModal').modal('show');
+    }
+
+    function iniciarSesion() {
+      var usuario = $('#username').val();
+      var contrasena = $('#password').val();
+
+      // Aquí podrías validar el usuario y contraseña con tu backend
+      // Por simplicidad, lo dejaremos como está y simplemente actualizaremos el texto del enlace
+      if (usuario && contrasena) {
+        $('.navbar-brand').text(usuario); // Cambia el texto del enlace de inicio de sesión
+        $('#loginModal').modal('hide'); // Oculta el modal de inicio de sesión
+      } else {
+        alert('Por favor, ingrese un usuario y contraseña válidos.');
+      }
+    }
+  </script>
     <body>
     <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
     
@@ -224,22 +269,16 @@
     <section>
       <div class="container py-4">
         <div class="row">
-          <div
-            class="col-lg-7 mx-auto d-flex justify-content-center flex-column"
-          >
+          <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
             <h3 class="text-center">Contact us</h3>
-            <form
-              role="form"
-              id="contact-form"
-              method="post"
-              autocomplete="off"
-            >
+            <form role="form" id="contact-form" method="post" autocomplete="off">
               <div class="card-body">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="input-group input-group-dynamic mb-4">
                       <label class="form-label">Primer nombre</label>
                       <input
+                        id="first-name"
                         class="form-control"
                         aria-label="First Name..."
                         type="text"
@@ -250,6 +289,7 @@
                     <div class="input-group input-group-dynamic">
                       <label class="form-label">Apellido</label>
                       <input
+                        id="last-name"
                         type="text"
                         class="form-control"
                         placeholder=""
@@ -261,15 +301,15 @@
                 <div class="mb-4">
                   <div class="input-group input-group-dynamic">
                     <label class="form-label">Correo electronico</label>
-                    <input type="email" class="form-control" />
+                    <input id="email" type="email" class="form-control" />
                   </div>
                 </div>
                 <div class="input-group mb-4 input-group-static">
                   <label>Tu mensaje</label>
                   <textarea
+                    id="message"
                     name="message"
                     class="form-control"
-                    id="message"
                     rows="4"
                   ></textarea>
                 </div>
@@ -295,8 +335,8 @@
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <button type="submit" class="btn bg-gradient-dark w-100">
-                      Enviar mensajefg
+                    <button type="button" class="btn bg-gradient-dark w-100" onclick="enviarMensaje()">
+                      Enviar mensaje
                     </button>
                   </div>
                 </div>
@@ -306,5 +346,53 @@
         </div>
       </div>
     </section>
+    
+    <script>
+      function enviarMensaje() {
+        const firstName = document.getElementById('first-name').value;
+        const lastName = document.getElementById('last-name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        const mensaje = `
+          Nombre: ${firstName} ${lastName}
+          Correo electrónico: ${email}
+          Mensaje: ${message}
+        `;
+        
+        alert('Se envio el mensaje al area comercial con los siguientes:\n\n' + mensaje);
+        
+        // Limpiar los campos después de enviar el mensaje
+        document.getElementById('first-name').value = '';
+        document.getElementById('last-name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+      }
+    </script>
+    
+    
+    <script>
+      function enviarMensaje() {
+        const firstName = document.getElementById('first-name').value;
+        const lastName = document.getElementById('last-name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        const mensaje = `
+          Nombre: ${firstName} ${lastName}
+          Correo electrónico: ${email}
+          Mensaje: ${message}
+        `;
+        
+        alert('Se envio un correo con los siguientes datos al area comercial:\n\n' + mensaje);
+        
+        // Limpiar los campos después de enviar el mensaje
+        document.getElementById('first-name').value = '';
+        document.getElementById('last-name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+      }
+    </script>
+    
   </body>
 </html>
